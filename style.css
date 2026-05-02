@@ -27,10 +27,11 @@
 }
 
 .item .fruit{
-width: 90%;
+width: clamp(250px, 80vw, 500px);
 max-width: 800px;
 
 position: absolute;
+top: 0;
 left: 50%; 
 transform: translate(-50%, 0);
 }

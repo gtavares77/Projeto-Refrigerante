@@ -15,13 +15,13 @@
 }
 
 .item .title{
-   font-size: clamp(8rem, 8vw, 8rem);
+   font-size: clamp(6rem, 6vw, 6rem);
    color: #ffffff;
-  font-family: 'Arial Black', Arial, sans-serif;
-   text-align: center;
+  font-family:'Times New Roman', Times, serif;
+   text-align: center; 
 
-   position: absolute;
-   top: 50%;
+   position:relative ;
+   top: 6%;
    left: 50%;
    transform: translate(-50%, -50%);
 }

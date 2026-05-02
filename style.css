@@ -123,3 +123,38 @@ footer {
   font-size: clamp(10px, 2.5vw, 14px);
 }
 
+@media (max-width: 768px) {
+
+  /* 🍓 Fruta - ajusta posição */
+  .item .fruit {
+    top: 38%;
+    width: 65vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* 🥤 Latinha */
+  .item .refri {
+    top: 58%;
+    width: 35vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* 🏷️ Nome da fruta */
+  .nome {
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* 🔤 Título grande */
+  .item .title {
+    font-size: 2.5rem;
+    padding: 0 10px;
+  }
+
+}
+

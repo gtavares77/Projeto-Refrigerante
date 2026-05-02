@@ -143,8 +143,8 @@ footer {
   }
 
 .item.title{
-font-size: 0.2rem;
-top: 5%;
+font-size: clamp(10rem, 8vw, 12rem);
+top: 20%;
 }
 
 .prev .next{

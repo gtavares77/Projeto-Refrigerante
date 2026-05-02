@@ -10,13 +10,7 @@ O projeto apresenta diferentes sabores (Morango, Abacate e Laranja), com navega�
 
 📌 (Adicione aqui o link do seu projeto com GitHub Pages futuramente)
 
----
-
-## 📸 Preview
-
-![preview](./img/laranjafrutafundo.png.png)
-
----
+##link https://gtavares77.github.io/Projeto-Refrigerante/
 
 ## ✨ Funcionalidades
 

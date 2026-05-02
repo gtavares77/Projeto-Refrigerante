@@ -15,7 +15,7 @@
 }
 
 .item .title{
-   font-size: clamp(2rem, 6vw, 8rem);
+   font-size: clamp(10rem, 10vw, 10rem);
    color: #ffffff;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    text-align: center;
@@ -81,16 +81,16 @@ right: 30px;
 }
 
 .item.active img.fruit {
-    animation: toActive 0.5s ease-in-out 1;
+    animation: toActive 0.6s ease-in-out 1;
 }
     
 .item.active .title {
-    animation: toActive 0.5s ease-in-out 1;
+    animation: toActive 0.6s ease-in-out 1;
 }
 
 .nome {
   position: relative;
-  font-size: clamp(12px, 3vw, 16px);
+  font-size: clamp(1px, 3vw, 16px);
   color: rgb(0, 0, 0);
   overflow: hidden;
 }
@@ -103,7 +103,7 @@ right: 30px;
   width: 100%;
   height: 100%;
   background: linear-gradient(120deg, transparent, white, transparent);
-  animation: brilho 2.5s infinite;
+  animation: brilho 3s infinite;
 }
 
 @keyframes brilho {

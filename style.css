@@ -14,18 +14,6 @@
     display: block;
 }
 
-.item .title{
-  font-size: 80px;
-  color: #000000;
-  font-family: monospace;
- font-weight: bold;
-
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .item .fruit{
   font-size: clamp(2rem, 10vw, 8rem);
 width: 80%;
@@ -40,12 +28,12 @@ transform: translate(-50%, -50%);
 }
 
 .item .refri{
- width: 35%;
-  max-width: 600px;
+ width: 95%;
+  max-width: 800px;
 
 position: absolute;
 left: 50%;
-top: 50%;
+top: 47%;
 transform: translate(-50%, -50%);
 }
 
@@ -120,7 +108,7 @@ right: 30px;
 footer {
   position: absolute;
   bottom: 2px;
-  left: 480px;
+  left: 10px;
   color: white;
   font-size: clamp(10px, 2.5vw, 14px);
 }

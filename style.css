@@ -106,10 +106,13 @@ right: 30px;
 }
 
 footer {
-  position: absolute;
-  bottom: 2px;
-  left: 30px;
+  position: absolute ;
+ top: 94%;
+ left: 36%;
+  transform: translateY(-50%, -50%);
+
+  
+ bottom: 2px;
   color: white;
-  font-size: clamp(10px, 2.5vw, 14px);
 }
 

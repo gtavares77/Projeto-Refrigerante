@@ -15,15 +15,15 @@
 }
 
 .item .fruit{
-  font-size: clamp(2rem, 10vw, 8rem);
-width: 80%;
+  font-size: clamp(20rem, 10vw, 8rem);
+width: 112%;
 position: absolute;
-top: 0;
+top: 100%;
 z-index: 3;
 
 position: absolute;
 left: 50%;
-top: 50%;
+top:45%;
 transform: translate(-50%, -50%);
 }
 
@@ -108,7 +108,7 @@ right: 30px;
 footer {
   position: absolute;
   bottom: 2px;
-  left: 10px;
+  left: 30px;
   color: white;
   font-size: clamp(10px, 2.5vw, 14px);
 }
